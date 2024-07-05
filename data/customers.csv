@@ -1,0 +1,24 @@
+customer_id,name,age,income,credit_score
+1,John Doe,30,50000,750
+2,Jane Smith,25,60000,800
+3,Michael Johnson,35,55000,780
+4,Sarah Williams,28,62000,810
+5,David Brown,40,58000,770
+6,Emily Davis,32,47000,740
+7,Christopher Garcia,29,53000,760
+8,Jessica Miller,27,49000,790
+9,Anthony Martinez,45,61000,820
+10,Lisa Robinson,38,57000,78511
+11,Anish Talkudar,30,45000,720
+12,Anish Talkudar,30,45000,720
+13,Anish Talkudar,30,45000,720
+14,Anish Talkudar,30,45000,720
+15,Aaishwarya Patil,30,45000,720
+16,Aaishwarya Patil,25,25000.0,800
+17,Sabya,30,50000.0,750
+18,Siva,30,50000.0,750
+19,Anish,30,50000.0,750
+20,Anish,30,50000.0,750
+21,Anish,30,50000.0,400
+22,Anish Talkudar,30,45000,720
+23,Anish Talkudar,30,45000,720

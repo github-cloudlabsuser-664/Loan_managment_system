@@ -1,0 +1,42 @@
+{
+  "CodingStandards": {
+    "GeneralGuidelines": {
+      "Indentation": "Use 4 spaces per indentation level.",
+      "LineLength": "Limit all lines to a maximum of 79 characters.",
+      "Encoding": "UTF-8 is the preferred encoding for source files.",
+      "Imports": "Imports should be on separate lines and grouped into standard library imports, related third-party imports, and local application/library imports."
+    },
+    "NamingConventions": {
+      "Modules": "Modules should have short, all-lowercase names. Underscores can be used if it improves readability.",
+      "Classes": "Class names should use the CapWords convention.",
+      "Functions": "Function names should be lowercase, with words separated by underscores as necessary to improve readability.",
+      "Variables": "Variable names should be lowercase, with words separated by underscores as necessary to improve readability.",
+      "Constants": "Constant names must be fully capitalized with words separated by underscores."
+    },
+    "Comments": {
+      "BlockComments": "Block comments generally apply to some (or all) code that follows them, and are indented to the same level as that code. Each line of a block comment starts with a # and a single space.",
+      "InlineComments": "Use inline comments sparingly. An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement.",
+      "Docstrings": "Use docstrings to describe all public modules, functions, classes, and methods. The docstring should be placed immediately after the def line of the function."
+    },
+    "Whitespace": {
+      "BlankLines": "Surround top-level function and class definitions with two blank lines. Method definitions inside a class are surrounded by a single blank line.",
+      "WhitespaceInExpressionsAndStatements": "Avoid extraneous whitespace in the following situations: immediately inside parentheses, brackets, or braces; immediately before a comma, semicolon, or colon; immediately before the open parenthesis that starts the argument list of a function call; immediately before the open parenthesis that starts an indexing or slicing."
+    },
+    "ProgrammingRecommendations": {
+      "Comparisons": "Use is not instead of not ... is. Use if foo is None: rather than if foo == None:.",
+      "BooleanValues": "Use the fact that empty sequences and collections are false, so if not seq: is preferable to if len(seq) == 0:.",
+      "Exceptions": "Use exceptions for exceptional conditions, not for flow control.",
+      "ReturnStatements": "Be consistent in return statements. Either all return statements in a function should return an expression, or none of them should.",
+      "StringQuotes": "In Python, single-quoted strings and double-quoted strings are the same. Use one consistently within a file."
+    },
+    "FunctionAndMethodArguments": {
+      "DefaultArgumentValues": "Default argument values are evaluated only once at function definition time, which can cause unexpected behavior. Use None as the default value and document the actual default behavior in the function's docstring.",
+      "VariablePositionalArguments": "Use *args to accept an arbitrary number of positional arguments.",
+      "VariableKeywordArguments": "Use **kwargs to accept an arbitrary number of keyword arguments."
+    },
+    "Classes": {
+      "Inheritance": "Use inheritance for sharing interface, not for sharing implementation.",
+      "PrivateVariables": "Use a single leading underscore only to indicate attributes that are internal to the implementation and subject to change. Use double leading underscores to invoke name mangling."
+    }
+  }
+}
